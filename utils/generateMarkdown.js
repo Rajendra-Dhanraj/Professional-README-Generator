@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   6. [Tests](#tests)
   7. [Questions](#questions)
 
-### Descrption
+### Description
 
 ${data.description}
 

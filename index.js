@@ -104,7 +104,7 @@ const questions = [
 function init() {
   inquirer.prompt(questions).then((userAnwers) => {
     const pageREADME = generateMarkdown(userAnwers);
-    fs.writeFile("./generated/README.md", pageREADME, (err) => {
+    fs.writeFile("./sample-readme/SAMPLEREADME.md", pageREADME, (err) => {
       if (err) throw new Error(err);
       console.log("Your README.md file has been created!");
     });
